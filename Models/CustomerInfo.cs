@@ -143,13 +143,13 @@ namespace ReadingExcel.Models
         /// Ngày tạo
         /// </summary>
         [ExcelColumn("Ngày tạo")]
-        public DateTime CreatedDate { get; set; }
+        public string CreatedDate { get; set; }
 
         /// <summary>
         /// Ngày giao dịch cuối
         /// </summary>
         [ExcelColumn("Ngày giao dịch cuối")]
-        public DateTime LastTransactionDate { get; set; }
+        public string LastTransactionDate { get; set; }
 
         /// <summary>
         /// Nợ cần thu hiện tại
